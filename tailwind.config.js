@@ -7,6 +7,21 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['General Sans', 'sans-serif'],
+      },
+      fontSize: {
+        '20px': '20px',
+      },
+      lineHeight: {
+        '27px': '27px',
+      },
+      width: {
+        '12': '48px', // Custom width equivalent to 47px for precision.
+      }, 
+      height: {
+        '7': '28px', // Custom height equivalent to 27px for precision.
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
